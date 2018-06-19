@@ -1,6 +1,75 @@
 .App {
-  text-align: center;
+  background-image: url("https://cdn.wallpapersafari.com/45/56/lGNuHi.jpg");
 }
+
+
+
+.quote {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  padding: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.scott {
+  width: 100%;
+  height: 50vh;
+}
+
+.posts {
+  color: black;
+  width: 30vw;
+  height: 40vh;
+  background-image: url("https://2.bp.blogspot.com/-HvjX7zMegUw/UH165pR6h_I/AAAAAAAACxA/qGyWNZi_V-E/s1600/notebook_paper_background-light_blue_gray.jpg");
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 20px;
+}
+
+.favs {
+  color: black;
+  width: 30vw;
+  height: 40vh;
+  background-image: url("https://2.bp.blogspot.com/-HvjX7zMegUw/UH165pR6h_I/AAAAAAAACxA/qGyWNZi_V-E/s1600/notebook_paper_background-light_blue_gray.jpg");
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 20px; 
+}
+
+.postStyles {
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+.favButton {
+  font-size: 20px;
+  height: 50px;
+  width: 10vw;
+}
+
+.postInfo {
+  font-weight: bold;
+  padding: 10px;
+}
+
+.favInfo {
+  font-weight: bold;
+  padding: 10px;
+}
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
