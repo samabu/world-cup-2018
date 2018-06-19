@@ -1,0 +1,15 @@
+li {
+    color: white;
+    list-style-type: none;
+    padding: 20px;
+    font-size: 30px;
+
+}
+.Contact {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
